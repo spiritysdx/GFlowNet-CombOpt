@@ -11,7 +11,27 @@ Pytorch implementation for our paper
 
 We formulate a set of graph combinatorial optimization problems as sequential decision-making sampling problems,
 and design efficient GFlowNet algorithms to tackle them.
- 
+
+## For ME
+
+```
+apt install python3-pip
+pip3 install hydra-core==1.1.0 omegaconf submitit hydra-submitit-launcher
+pip3 install dgl==0.6.1
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip3 install ipdb einops
+```
+
+```
+cd GFlowNet-CombOpt/
+cd data/
+python3 rbgraph_generator.py --num_graph 4000 --save_dir rb200-300/train
+python3 rbgraph_generator.py --num_graph 500 --save_dir rb200-300/test
+cd ..
+cd gflownet/
+python3 main.py input=rb200-300 alg=fl bsit=8 > log
+```
+
 
 ## Dependency
 
