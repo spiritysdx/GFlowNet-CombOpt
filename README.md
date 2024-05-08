@@ -18,7 +18,7 @@ and design efficient GFlowNet algorithms to tackle them.
 apt install python3-pip
 pip3 install hydra-core==1.1.0 omegaconf submitit hydra-submitit-launcher
 pip3 install dgl==0.6.1
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip3 install ipdb einops
 ```
 
