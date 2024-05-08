@@ -23,6 +23,12 @@ pip3 install ipdb einops
 ```
 
 ```
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+fairseq 0.12.2 requires hydra-core<1.1,>=1.0.7, but you have hydra-core 1.1.0 which is incompatible.
+fairseq 0.12.2 requires omegaconf<2.1, but you have omegaconf 2.1.2 which is incompatible.
+```
+
+```
 cd GFlowNet-CombOpt/
 cd data/
 python3 rbgraph_generator.py --num_graph 4000 --save_dir rb200-300/train
