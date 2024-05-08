@@ -14,11 +14,11 @@ and design efficient GFlowNet algorithms to tackle them.
 
 ## For ME
 
-ubuntu20.04-py38-torch1.11.0-tf1.15.5-1.8.1
+ubuntu22.04-cuda11.8.0-py310-torch2.1.0-tf2.14.0-1.10.0
 
 ```
 pip3 install networkx==2.5.0 pydot hydra-core==1.1.0 omegaconf fairseq submitit hydra-submitit-launcher 
-pip3 install dgl==0.6.1
+pip install dgl -f https://data.dgl.ai/wheels/torch-2.1/cu118/repo.html
 pip3 install ipdb einops
 ```
 
