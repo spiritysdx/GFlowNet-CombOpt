@@ -19,9 +19,12 @@ and design efficient GFlowNet algorithms to tackle them.
 
 ubuntu20.04-cuda11.3.0-py38-torch1.11.0-tf1.15.5-1.8.1
 
+https://pypi.tuna.tsinghua.edu.cn/simple/dgl/
+
 ```
-pip3 install networkx==2.5.0 pydot hydra-core==1.1.0 omegaconf fairseq submitit hydra-submitit-launcher 
-pip install dgl -f https://pypi.tuna.tsinghua.edu.cn/packages/71/03/5783221234d4e0667b57230c17fc493fb54990c2e60631ac4a6d78a0ac38/dgl-0.6.1-cp39-cp39-manylinux1_x86_64.whl
+pip3 install networkx==2.5.0 pydot hydra-core==1.1.0 omegaconf fairseq submitit hydra-submitit-launcher
+pip3 uninstall dgl -y
+pip3 install dgl -f https://pypi.tuna.tsinghua.edu.cn/packages/a3/a7/30b040017feb4c44e22f28f858cc878da7458cf8362aec1fc9df7c701e8f/dgl-0.6.1-cp36-cp36m-manylinux1_x86_64.whl
 pip3 install ipdb einops
 ```
 
