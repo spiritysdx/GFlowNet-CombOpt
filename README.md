@@ -17,6 +17,14 @@ and design efficient GFlowNet algorithms to tackle them.
 
 ### GPU
 
+```
+dgl                       1.1.2+cu116              pypi_0    pypi
+torch                     1.13.0+cu116             pypi_0    pypi
+NVIDIA-SMI 511.79       Driver Version: 511.79       CUDA Version: 11.6
+```
+
+OR
+
 ubuntu20.04-cuda11.3.0-py38-torch1.11.0-tf1.15.5-1.8.1
 
 https://pypi.tuna.tsinghua.edu.cn/simple/dgl/
@@ -24,7 +32,7 @@ https://pypi.tuna.tsinghua.edu.cn/simple/dgl/
 ```
 pip3 install networkx==2.5.0 pydot hydra-core==1.1.0 omegaconf fairseq submitit hydra-submitit-launcher
 pip3 uninstall dgl -y
-pip3 install dgl -f https://pypi.tuna.tsinghua.edu.cn/packages/a3/a7/30b040017feb4c44e22f28f858cc878da7458cf8362aec1fc9df7c701e8f/dgl-0.6.1-cp36-cp36m-manylinux1_x86_64.whl
+pip3 install dgl -f https://pypi.tuna.tsinghua.edu.cn/packages/e4/9c/ed51e0f42c3910b4af7f75ddd24d52668314e8826ec4286d48562e29503a/dgl-1.1.1-cp311-cp311-manylinux1_x86_64.whl
 pip3 install ipdb einops
 ```
 
